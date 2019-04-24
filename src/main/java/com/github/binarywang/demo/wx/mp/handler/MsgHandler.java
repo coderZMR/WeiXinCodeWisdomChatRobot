@@ -1,5 +1,6 @@
 package com.github.binarywang.demo.wx.mp.handler;
 
+import com.github.binarywang.demo.wx.mp.Bot.UnitService;
 import com.github.binarywang.demo.wx.mp.builder.TextBuilder;
 import com.github.binarywang.demo.wx.mp.utils.JsonUtils;
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -11,6 +12,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;
+import java.util.Random;
 
 import static me.chanjar.weixin.common.api.WxConsts.XmlMsgType;
 
@@ -42,9 +44,13 @@ public class MsgHandler extends AbstractHandler {
             e.printStackTrace();
         }
 
+        Random r = new Random();
+        int rInt = r.nextInt(100);
         //TODO 组装回复消息
-        String content = "收到信息内容：" + JsonUtils.toJson(wxMessage);
+        // String content = "收到信息内容：" + JsonUtils.toJson(wxMessage);
+        String content = UnitService.utterance(rInt, "", wxMessage.getFromUser(), wxMessage.getContent());
 
+        // return new TextBuilder().build(content, wxMessage, weixinService);
         return new TextBuilder().build(content, wxMessage, weixinService);
 
     }
