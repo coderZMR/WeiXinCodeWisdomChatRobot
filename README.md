@@ -1,4 +1,4 @@
-###
+# 本项目是基于binarywang/weixin-java-mp-demo-springboot以及Baidu UNIT2.0开发的微信公众号聊天机器人
 
 ### 微信公众号后端Java Demo
 ### 本Demo基于Spring Boot构建，实现微信公众号后端开发功能。
