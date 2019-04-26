@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.wx.mp.Bot;
+package com.github.binarywang.demo.wx.mp.chatbot;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

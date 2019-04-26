@@ -1,4 +1,4 @@
-package com.github.binarywang.demo.wx.mp.Bot;
+package com.github.binarywang.demo.wx.mp.chatbot;
 
 /**
  * Base64 工具类

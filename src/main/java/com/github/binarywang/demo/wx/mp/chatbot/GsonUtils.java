@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2017 Baidu, Inc. All Rights Reserved.
  */
-package com.github.binarywang.demo.wx.mp.Bot;
+package com.github.binarywang.demo.wx.mp.chatbot;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
