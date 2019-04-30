@@ -1,3 +1,18 @@
+@media screen and (min-width: 350px) and (max-width: 800px){
+  html {
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      font-size: 16px;
+    }
+
+  body {
+    height:100%;
+    width:100%;
+    margin: 0;
+    overflow: auto;
+}
+
 .container {
     width:90%;
     min-height: 580px;
