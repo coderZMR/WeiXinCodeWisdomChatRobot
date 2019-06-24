@@ -1,5 +1,7 @@
 # 本项目是基于binarywang/weixin-java-mp-demo-springboot以及Baidu UNIT2.0开发的微信公众号聊天机器人
 ## 当前仅集成了Baidu UNIT2.0部分功能以及CodeWisdom的代码推荐服务
+
+
 ## binarywang/weixin-java-mp-demo-springboot
 ### binarywang/weixin-java-mp-demo-springboot基于Spring Boot构建，实现微信公众号后端开发功能。
 #### 微信公众号后端Java Demo使用步骤：
@@ -24,5 +26,16 @@ wx:
 4. 配置微信公众号中的接口地址：http://公网可访问域名/wx/portal/xxxxx （注意，xxxxx为对应公众号的appid值）；
 5. 根据自己需要修改各个handler的实现，加入自己的业务逻辑。
 
+
 ## Baidu UNIT2.0
 ### 官方文档：https://ai.baidu.com/docs#/UNIT-v2-service-API/top
+
+
+# 目前项目架构
+![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/framework.JPG)
+
+
+# 目前效果
+![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/result1.png)
+![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/result2.png)
+![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/result3.png)
