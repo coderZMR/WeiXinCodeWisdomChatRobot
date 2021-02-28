@@ -9,10 +9,10 @@ binarywang/weixin-java-mp-demo-springboot基于Spring Boot构建，实现微信�
 ## Baidu UNIT2.0
 官方文档：https://ai.baidu.com/docs#/UNIT-v2-service-API/top
 
-## 目前项目架构
+## 项目架构
 ![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/framework.JPG)
 
-## 目前效果
+## 项目效果
 ![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/result1.png)
 ![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/result2.png)
 ![image](https://github.com/coderZMR/weixinCodeWisdom/blob/master/exhibition/result3.png)
